@@ -33,7 +33,8 @@ nav {
     right: 0px;
 }
 
-nav a:hover {
+
+nav a:hover, .servicos{
     color:rgb(255, 255, 255);
     text-decoration: underline;
 }
