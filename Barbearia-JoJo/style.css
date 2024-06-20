@@ -1,0 +1,195 @@
+header h1 img { 
+    width: 100px;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+nav li {
+display: inline;
+margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 247, 247);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+nav a:hover {
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+.servicos li:hover {
+    border-color: rgb(58, 237, 231);
+}
+
+.servicos li:active {
+    border-color: rgb(78, 30, 210);
+}
+
+.servicos li:hover h2{
+    font-size: 34px;
+}
+
+.servicos li img {
+     width: 200px;
+}
+
+.servicos h2 {
+     font-size: 30px;
+     font-weight: bold;
+}
+
+.servicos-descricao {
+    font-size: 18px;
+}
+
+.servico-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgba(116, 10, 116, 0);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer img{
+    width: 100px;
+}
+
+.copyright {
+
+    color: rgba(255, 255, 255, 0.344);
+    font-size: 30px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%; 
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(126, 42, 165);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: rgb(17, 230, 245);
+    transform: scale(1.2);
+}
+table {
+    margin: 20px 0 40px;
+    color: rgb(141, 245, 255)
+}
+
+thead {
+    background-color:rgb(70, 17, 119);
+    color:rgb(250, 250, 250);
+    font-weight: bold;
+}
+td, th {
+    border: 1px solid rgb(255, 254, 254);
+    padding: 8px 15px;
+}
+
+/* css da página principal */
+
+#banner {
+    width: 100%
+}
+
+.principal, .mapa, .video, .creditos {
+    text-align: center;
+    font-size: 1.5em;
+    margin:0 0 1em;
+    clear: left;
+    -webkit-text-fill-color: whitesmoke;
+}
+
+body {
+    background-image: url(Barbearia-main/2jl5dnfww5f41.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.geral{
+    font-size: 1.5em;
+    -webkit-text-fill-color: whitesmoke;
+
+}
+img footer { 
+    image-resolution: 20px;
+}
